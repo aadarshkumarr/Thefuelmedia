@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.Services {
+    color: var(--white);
+}
+
+.Services__service {
+    background-color: var(--lightblack);
+    border-left: 8px solid var(--yellow);
+    margin: 54px 56px;
+    padding: 24px 32px 24px 48px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Services__name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 54px;
+    font-family: 'Poppins', sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.Services__desc {
+    margin-top: 24px;
+    margin-block-end: 0;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 152%;
+    letter-spacing: 0.04em;
+    font-family: 'Circular Std', sans-serif;
+    color: #BFBEBE;
+    overflow-wrap: break-word;
+}
+
+.Services__desc a {
+    color: #BFBEBE;
+}
+
+.Service__arrow {
+    position: absolute;
+    right: 36px;
+    top: 36px;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 1000px) {
+    .Services__service {
+        padding: 16px 32px 12px 20px;
+        margin: 54px 32px;
+    }
+
+    .Service__arrow {
+        top: 20px;
+        right: 12px;
+        font-size: 16px;
+    }
+
+    .Services__name {
+        line-height: 24px;
+        font-size: 20px;
+    }
+    
+    .Services__desc {
+        font-size: 16px;
+    }
+}

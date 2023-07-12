@@ -1,0 +1,54 @@
+.Line {
+  height: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Line__container {
+  width: 200px;
+  height: 8px;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.Line__innerContainer {
+  height: 100%;
+}
+ 
+.Line__left {
+  width: 200px;
+  margin-right: 8px;
+  height: 100%;
+  background-color: var(--yellow);
+  flex: 1 0 auto;
+  transform: translateX(-227px);
+  animation: linearAnimation 3s infinite;
+}
+  
+.Line__center {
+  width: 11px;
+  margin-right: 8px;
+  height: 100%;
+  background-color: var(--yellow);
+  flex: 1 0 auto;
+  transform: translateX(-227px);
+  animation: linearAnimation 3s infinite;
+}
+  
+.Line__right {
+  width: 200px;
+  height: 100%;
+  background-color: var(--yellow);
+  flex: 1 0 auto;
+  transform: translateX(-227px);
+  animation: linearAnimation 3s infinite;
+}
+
+@keyframes linearAnimation {
+  from {transform: translateX(-227px);}
+  to {transform: translateX(0px);}
+}
+
+
+  

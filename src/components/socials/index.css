@@ -1,0 +1,20 @@
+.Socials {
+  position: fixed;  
+  display: flex;
+  flex-direction: column;
+  right: 28px;
+  bottom: 0;
+  z-index: 9999;
+}
+  
+.Socials__icon {
+  font-size: 36px;
+  padding: 10px;
+  color: var(--white);
+}
+
+@media screen and (max-width: 1000px){
+  .Socials {
+    display: none;
+  }
+}

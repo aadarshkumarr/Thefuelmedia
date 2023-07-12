@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+
+:root {
+  --lightblack: #161616;
+  --black: #101010;
+  --white: #FFFFFF;
+  --grey: #BFBEBE;
+  --yellow: #FFD100;
+  --red: #FF5757;
+}
+
+body {
+  margin: 0;
+  background-color: var(--black);
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  font-family: 'Sen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

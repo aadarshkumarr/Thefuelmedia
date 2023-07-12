@@ -1,0 +1,65 @@
+@import url("https://fonts.cdnfonts.com/css/circular-std");
+
+.Navbar-Desktop {
+	display: flex;
+	font-family: "Sen", sans-serif;
+	height: 115px;
+	width: 100%;
+	background-color: #161616 !important;
+	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.51);
+	top: 0;
+	z-index: 9999;
+	padding-right: 32px;
+}
+
+.Navbar-Desktop__logo-container {
+	width: 8%;
+}
+
+.Navbar-Desktop__logo {
+	height: 96px;
+	width: 96px;
+}
+
+.Navbar-Desktop__menu-item {
+	color: var(--white);
+	font-style: normal;
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: "Circular Std", sans-serif;
+	cursor: pointer;
+	padding: 0 2px;
+	margin: 0 32px;
+	margin-top: 16px;
+}
+
+.Navbar-Desktop__menu-item:hover {
+	color: var(--yellow);
+}
+
+.Navbar-Desktop__contact-button {
+	border: none;
+	background-color: var(--yellow);
+	height: 57px;
+	width: 174px;
+	border-radius: 8px;
+	font-family: "Circular Std", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+	color: #101010;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+	.Navbar_Desktop__MI {
+		background-color: #161616;
+		width: 100%;
+	}
+
+	.Navbar-Desktop__contact-button {
+		margin-bottom: 0;
+	}
+}

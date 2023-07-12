@@ -1,0 +1,17 @@
+.Ourwork {
+    color: var(--white);
+}
+
+#ourworkMobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #ourworkMobile {
+        display: block;
+    }
+
+    #ourworkDesktop {
+        display: none;
+    }
+}

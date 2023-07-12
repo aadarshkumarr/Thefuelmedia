@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.HomeSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.mainImage {
+  width: 100%;
+}
+
+.App__subheading {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'Circular Std', sans-serif;
+  padding-top: 5vh;
+  color: #BFBEBE;
+}
+
+.App__heading {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  color: #FFFFFF;
+  line-height: 71px;
+  letter-spacing: 0.05em;
+  font-family: 'Circular Std', sans-serif;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-bottom: 10px;
+}
+
+.Vid {
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Vid {
+    position: static;
+    height: auto;
+  }
+
+  .mainImage {
+    display: none;
+  }
+
+  .App__subheading {
+    font-size: 16px;
+    margin-block-end: 0;
+  }
+  
+  .App__heading {
+    font-size: 32px;
+  }
+}

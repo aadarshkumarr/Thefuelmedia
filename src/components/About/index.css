@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+.About {
+    color: var(--white);
+}
+
+.About__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.About__content-left {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7% 3%;
+}
+
+.About__content-p {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 152%;
+    letter-spacing: 0.04em;
+    font-family: 'Circular Std', sans-serif;
+}
+
+.About__content-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About__logo {
+    width: 90%;
+}
+
+@media screen and (max-width: 1000px) {
+    .About__logo{
+        display: none;
+    }
+    .About__content {
+        flex-direction: column;
+    }
+
+    .About__content-left, .About__content-right {
+        width: 100%;
+    }
+
+    .About__content-right {
+        height: auto;
+    }
+
+    .About__content-left {
+        padding: 7% 5%;
+    }
+
+    .About__content-right-box {
+        height: 80%;
+    }
+
+    .About__content-p {
+        font-size: 16px;
+        text-align: justify;
+    }
+}

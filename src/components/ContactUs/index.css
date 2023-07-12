@@ -1,0 +1,194 @@
+.ContactUs {
+    color: var(--white);
+    margin-bottom: 64px;
+}
+
+.ContactUs__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 7vw;
+    margin-top: 64px;
+}
+.ContactUs__left {
+    width: 48%;
+    padding-top: 32px;
+}
+
+.ContactUs__right {
+    width: 48%;
+    padding-top: 32px;
+}
+.Contactus__name {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 56px;
+    gap: 10px;
+    background: #1E1E1E;
+    border: none;
+    border-bottom: 0.5px solid #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 100%;
+    color: rgba(191, 190, 190, 0.6);
+    margin-bottom: 24px;
+}
+
+.Contactus__phone {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 56px;
+    gap: 10px;
+    background: #1E1E1E;
+    border: none;
+    border-bottom: 0.5px solid #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(191, 190, 190, 0.6);
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.Contactus__email {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 56px;
+    gap: 10px;
+    background: #1E1E1E;
+    border: none;
+    border-bottom: 0.5px solid #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(191, 190, 190, 0.6);
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.Contactus__message {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 56px;
+    gap: 10px;
+    background: #1E1E1E;
+    border: none;
+    border-bottom: 0.5px solid #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 100%;
+    color: rgba(191, 190, 190, 0.6);
+    margin-bottom: 24px;
+}
+
+.ContactUs__buttonDiv {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.ContactUs__send {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 44px;
+    gap: 10px;
+    background: #FFD100;
+    border-radius: 194px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 163.5%;
+    letter-spacing: 0.04em;
+    color: #101010;
+    cursor: pointer;
+}
+
+.Contactus__topheading {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 28px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #BFBEBE;
+    padding: 0 5vw;
+}
+
+.Map {
+    width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+    .Map {
+        width: 100%;
+    }
+
+    .ContactUs__container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .ContactUs__left {
+        padding-top: 0;
+        width: auto;
+    }
+    
+    .ContactUs__right {
+        width: auto;
+    }
+
+    .ContactUs__send {
+        font-size: 18px;
+        padding: 10px 32px;
+    }
+
+    .Contactus__name {
+        width: 100%;
+        margin-bottom: 24px;
+        padding: 16px 24px;
+        font-size: 16px;
+    }
+
+    .Contactus__email {
+        width: 100%;
+        padding: 16px 24px;
+        font-size: 16px;
+    }
+
+    .Contactus__message {
+        padding: 16px 24px;
+        font-size: 16px;padding: 16px 24px;
+        font-size: 16px;
+    }
+
+    .Contactus__phone {
+        padding: 16px 24px;
+        font-size: 16px;
+    }
+}
